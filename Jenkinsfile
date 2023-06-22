@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Test Env') {
             steps {
-                echo ' Test Environment'
+                echo ' Test Environment.....'
             }
         }
         stage('UAT') {
