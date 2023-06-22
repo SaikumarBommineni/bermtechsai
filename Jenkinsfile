@@ -12,7 +12,7 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
+        stage('Deploy') {J
             steps {
                 echo 'Deploying....'
             }
@@ -41,5 +41,8 @@ pipeline {
             steps {
                 echo 'Prod'
             }
-        }
-    }
+        }
+    }
+}
+
+    
